@@ -8,11 +8,15 @@ body {
     background-color: #f7f7f7;
 }
 .navbar, footer {
-    background-color: #007BFF;
+    background-color: #064fc4;
 }
 .btn-primary {
     background-color: #FFD700;
     border-color: #FFD700;
+}
+.btn-primary:hover {
+    background-color: #064fc4;
+    border-color: #064fc4;
 }
 .card {
     background-color: #FFFFFF;
@@ -25,7 +29,7 @@ body {
     transform: scale(1.05);
 }
 .card h5 {
-    background-color: #007BFF;
+    background-color: #064fc4;
     color: #FFFFFF;
     padding: 10px 15px;
     margin: 0;
@@ -51,6 +55,9 @@ body {
 }
 .container {
     padding-top: 80px; 
+}
+h1 {
+  text-align: center;
 }
 .navbar .navbar-brand img {
     margin-left: 15px; 
